@@ -1,15 +1,90 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# Company Website Template
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+This repository contains the source code for the **Megabit** company
+website, built using **GitHub Pages**, **Jekyll**, and the **Agency
+Jekyll Theme**.
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+The site is designed for easy maintenance, fast deployment, and clean
+presentation of: 
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+- Company services
+- Portfolio items
+- About information
+- Team members
+- Timeline / history
+- Contact information
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+## 🚀 Features
+
+-   Responsive, modern one-page layout
+-   Portfolio and services sections
+-   Optimized for GitHub Pages
+-   Easy customization via `_config.yml`
+-   SEO-friendly structure
+-   Supports custom domains
+-   Custom CSS overrides
+-   Markdown content support
+-   Fast builds with Jekyll remote theme
+-   Smooth scrolling and animated sections
+
+## 🧩 Technology Stack
+
+  Component                 Description
+  ------------------------- --------------------------------------------
+  **Jekyll**                Static site generator used by GitHub Pages
+  **Agency Jekyll Theme**   Base template used for layout and styling
+  **GitHub Pages**          Hosting and automatic build system
+  **Liquid Templates**      For data-driven sections
+  **SCSS & Custom CSS**     For styling and overrides
+
+**Theme Source:**
+
+This site is built using the excellent **Agency Jekyll Theme**: https://github.com/raviriley/agency-jekyll-theme
+
+## 📁 Project Structure
+
+    .
+    ├── _config.yml
+    ├── _data/
+    ├── _includes/
+    ├── _layouts/
+    ├── assets/
+    │   ├── css/custom.css
+    │   └── img/
+    └── index.md
+
+## 🎨 Customizing the Design
+
+### 1. Edit Company Info
+
+Update data files in `_data/` and settings in `_config.yml`.
+
+### 2. Override CSS
+
+Add overrides in:
+
+    assets/css/custom.css
+
+And ensure it loads in `_includes/head.html`.
+
+## 🌐 Using a Custom Domain
+
+Add GitHub Pages custom domain, then configure GoDaddy DNS with GitHub's
+A and CNAME records, and enable HTTPS.
+
+## 🛠 Running Locally
+
+    bundle install
+    bundle exec jekyll serve
+
+## 🚀 Deployment
+
+Automatic on push to `main`.
+
+## 🙏 Credits
+
+Built using **Agency Jekyll Theme**: https://github.com/raviriley/agency-jekyll-theme
+
+## 📄 License
+
+Content © Megabit d.o.o.
