@@ -11,25 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Megabit
+    text: Building Blazorise and bespoke digital experiences
+    button: Discover Blazorise
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "What We Do"
+    text: "Megabit is a product-based company focused on Blazorise, with agency expertise for custom projects when you need it."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Blazorise UI Framework"
+        desc: "Our flagship product delivers a fast, consistent, and beautiful UI toolkit for Blazor developers."
+        icon: fas fa-layer-group #find more at https://fontawesome.com/icons
+      - title: "Product Partnership"
+        desc: "We evolve Blazorise with customers, shaping roadmap priorities to unlock the most value for your teams."
+        icon: fas fa-handshake
+      - title: "Custom Projects"
+        desc: "When you need agency support, we design and build tailored solutions on top of Blazorise and modern web tech."
+        icon: fas fa-code
 
   portfolio:
     title: "Portfolio"
@@ -69,9 +69,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About Megabit"
+    text: "Product team behind Blazorise"
+    body: "Megabit d.o.o. is a product-based company building Blazorise—the comprehensive UI framework for Blazor developers. We are headquartered at Hrvojeva 11, 21204 Dugopolje (OIB: 11987636635) and collaborate with teams worldwide. Alongside Blazorise, we occasionally take on custom projects that benefit from our expertise in modern .NET and web technologies."
     section: about
 
   clients:
@@ -130,8 +130,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact Megabit"
+    text: "Reach out to discuss Blazorise, product partnerships, or custom project needs."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -141,7 +141,7 @@ en: &DEFAULT_EN
     phone-validation: "Please enter your phone number."
     message: "Message*"
     message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
+    subject: "Contact Megabit"
     submit: "Send Message"
 
   footer:
